@@ -32,8 +32,8 @@ A simple, clean React-based weather application that fetches real-time weather d
 
 1. Clone the repository
 
-git clone <your-repo-url>  
-cd weather-app  
+git clone https://github.com/sal12321/weatherStack_miniReact-vite.git
+cd vite-mini-project-materialUI
 
 2. Install dependencies
 
