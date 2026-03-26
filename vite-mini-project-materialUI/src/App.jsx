@@ -11,12 +11,12 @@ function App() {
 
   let [city, setCity] = useState("");
   const [weatherData, setWeatherData] = useState(null);
+  const API_KEY = import.meta.env.VITE_API_KEY;
   
   
 
   let getWeatherData = async (city) =>{
-  const API_URL =
-   `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=73d33eb9a029c908fc1017e9326d9c72`
+  const API_URL=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`
   let result = await fetch(API_URL);
   result = await result.json();
   setWeatherData(result);
