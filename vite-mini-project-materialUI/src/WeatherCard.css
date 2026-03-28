@@ -1,0 +1,24 @@
+.card {
+    max-width: 350px;
+    margin: 20px auto;
+    padding:  20px ;
+    border-radius:  12px ;
+    background:  #4b5c77 ;
+    color:  #fff ;
+    text-align:  center ;
+    box-shadow:  0 4px 10px rgba(0, 0, 0, 0.3) ;
+  }
+  .row {
+    display:  flex ;
+    justify-content:  center ;
+    align-items:  center ;
+    gap:  10px ;
+  }
+  .desc {
+    text-transform:  capitalize ;
+    margin-bottom:  10px ;
+  }
+  .details {
+    text-align:  left ;
+    font-size:  14px ;
+  }
